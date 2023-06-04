@@ -1,6 +1,7 @@
 import os
 from pathlib import Path
 import logging
+from datetime import datetime
 
 logging.basicConfig(level=logging.INFO, format='[%(asctime)s] : %(message)s \n')
 
@@ -21,7 +22,8 @@ file_list= [
     'params.yaml',
     'requirements.txt',
     'setup.py',
-    'notebooks/trials.ipynb'
+    'notebooks/trials.ipynb',
+    'templates/index.html'
 ]
 
 for file in file_list:
